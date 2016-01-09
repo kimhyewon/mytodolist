@@ -46,13 +46,14 @@ a {
 	background: url('/img/myboards.png') no-repeat center top;
 	background-size: 400px;
 	height: 130px;
+    margin-bottom: 2px;
 }
 
 .list {
 	float: left;
-    height: 180px;
-    width: 300px;
-    left: 70px;
+    height: 150px;
+    width: 267px;
+    left: 120px;
     margin-top: 60px;
     margin-left: 60px;
     background-color: white;
@@ -70,29 +71,30 @@ a {
 .tree1 {
 	position: absolute;
     background: url('/img/7.jpg') no-repeat center bottom;
-    background-size: 55px;
+    background-size: 51px;
     height: 63px;
     width: 49px;
-    top: 127px;
-    left: 174px;
+    top: 100px;
+    left: 156px;
 }
 
 .tree2 {
     position: absolute;
     background: url('/img/4.jpg') no-repeat center bottom;
-    background-size: 68px;
+    background-size: 59px;
     height: 102px;
     width: 70px;
-    top: 91px;
-    left: 229px;
+    top: 64px;
+    left: 201px;
 }
 
 #add_btn {
 	background: url('/img/add_btn.png') no-repeat right bottom;
 	background-size: 80px;
 	height: 80px;
-	margin-right: 50px;
-	padding-top: 470px;
+	margin-right: 60px;
+	padding-top: 450px;
+    z-index: 20;
 }
 
 #add_list_con {
@@ -145,3 +147,16 @@ a {
     border-radius: 3px;
     color: #4D4D4D;
 }
+
+footer {
+    position: fixed;
+    left:0; 
+    bottom:0; 
+    width:100%; 
+    z-index: 30;
+    background: url('/img/snowglobe_snow.png') no-repeat;
+    background-size: 1300px;
+    height: 90px;
+    opacity: 1;
+}
+

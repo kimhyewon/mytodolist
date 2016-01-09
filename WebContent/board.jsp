@@ -43,7 +43,8 @@
 		</form>
 		
 	</div>
-	
+	<footer>
+	</footer>
 
 	<script type="text/javascript">
 	$( init );

@@ -162,7 +162,9 @@
 			</ul>
 		</section>
 	</section>
-
+	<footer>
+		
+	</footer>
 	
 
 	<script type="text/javascript" src="js/showTasks.js"></script>
