@@ -1,0 +1,168 @@
+@CHARSET "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/kopubbatang.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+html {
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+    list-style: none; 
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #B6EFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
+
+#main_section {
+	margin: 0;
+	padding: 0;
+	width: 500px;
+	margin: 0 auto;
+}
+
+#main_body {
+	position: relative;
+	height: 420px;
+	margin-top: 30px;
+}
+
+#santa_hat {
+	background: url('/img/Santa-Hats.png') no-repeat center top;
+	background-size: 70px;
+	height: 70px;
+}
+
+#title {
+	background: url('/img/title.png') no-repeat center top;
+	background-size: 120%;
+	height: 180px;
+	margin-top: -50px;
+}
+
+#mascot {
+	background: url('/img/poom121560687919481.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+    height: 200px;
+    margin-top: -10px;
+}
+
+.control-group {
+}
+
+.error {
+	top: 474px;
+    position: absolute;
+    left: 90px;
+    z-index: 1;
+    font-size: 17px;
+    color: #FA5F50;
+
+}
+
+form {
+	width: 440px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	width: 260px;
+	margin: 0 auto;
+	margin-top: -40px;
+	margin-left: 90px;
+	float: left;
+}
+
+.id_section {
+	position:relative; 
+	padding:0; 
+	margin:0;
+}
+
+#id_img {
+	position:absolute;
+	bottom:-7px; left:-10px; height:35px;
+}
+
+#id_input {
+	width: 220px;
+	height: 50px;
+	margin: 0;
+	margin-left: 30px;
+	border-style:none;
+    border-bottom:solid 3px #A6AAA9;
+    outline:0;
+    font-size: 20px;
+    letter-spacing: 3px;
+    /*font-family: 'KoPub Batang', serif;*/
+  	/*font-family: 'Nanum Pen Script', cursive;*/
+}
+
+.pw_section {
+	position:relative; 
+	padding:0; 
+	margin:0;
+}
+
+#pw_img {
+	position:absolute;
+	bottom:-7px; left:-10px; height:35px;
+}
+
+#pw_input {
+	width: 220px;
+	height: 40px;
+	margin: 0;
+	margin-left: 30px;
+	border-style:none;
+    border-bottom:solid 3px #A6AAA9;
+    outline:0;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+/*.signup_right {
+	background: url('/img/signup_btn.jpg') no-repeat right;
+	background-size: 100px;
+	height: 70px;
+	margin-bottom: 20px;
+}*/
+
+input[type=image] {
+	border: none;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right; 
+	background-size: 100px;
+	1height: 70px;
+	margin-top: -78px;
+	margin-left: 340px;
+}
+
+footer {
+	background: url('/img/trees.jpg') no-repeat center top;
+	background-size: 95%;
+	height: 280px;
+	margin-top: -10px;
+}
