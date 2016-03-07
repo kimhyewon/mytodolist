@@ -1,6 +1,7 @@
 document.getElementById("add_btn").addEventListener("click", createAddDiv);
 
 function createAddDiv() {
+	console.log("hi");
 	document.getElementById("add_list_con").style.display = "block";
 	document.getElementById("back_con").style.webkitFilter = "blur(5px)";; 
 	

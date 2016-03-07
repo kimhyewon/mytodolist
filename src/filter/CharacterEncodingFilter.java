@@ -14,29 +14,27 @@ import javax.servlet.annotation.WebFilter;
 
 @WebFilter("*")
 public class CharacterEncodingFilter implements Filter {
+	private static final String DEFAULT_ENCODING = "UTF-8";
+	
+	@Override
+	public void init(FilterConfig arg0) throws ServletException {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	@Override
+	public void doFilter(ServletRequest req, ServletResponse resp,
+			FilterChain chain) throws IOException, ServletException {
+		System.out.println("filter 실행!!!!!!!");
+		req.setCharacterEncoding(DEFAULT_ENCODING);
+		resp.setCharacterEncoding(DEFAULT_ENCODING);
+		chain.doFilter(req, resp);
+		
+	}
 	
 	@Override
 	public void destroy() {
 		// TODO Auto-generated method stub
 		
 	}
-
-	@Override
-	public void doFilter(ServletRequest req, ServletResponse resp,
-			FilterChain chain) throws IOException, ServletException {
-		req.setCharacterEncoding("UTF-8");
-		resp.setCharacterEncoding("UTF-8");
-		chain.doFilter(req, resp);
-		
-	}
-
-	@Override
-	public void init(FilterConfig arg0) throws ServletException {
-		// TODO Auto-generated method stub
-		
-	}
-
-
-
-	
 }
